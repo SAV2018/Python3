@@ -24,4 +24,4 @@ while True:
         print('Incorrect value')
         continue
 
-    print(div_nums(num_1, num_2))
+    print(f'{num_1} / {num_2} = {div_nums(num_1, num_2)}')

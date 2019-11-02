@@ -13,7 +13,6 @@ def print_userdata(name, family, town, year, phone, email=''):
     :param year: int
     :param phone: str
     :param email: str
-    :return:
     '''
     print(f'{name + " " + family:25}\t({year})\t{town:15}\t{phone:16}\t{email}')
 

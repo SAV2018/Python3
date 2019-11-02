@@ -12,7 +12,7 @@ def my_func(arg_1, arg_2, arg_3):
 while True:
     print('\nEnter 3 numbers (separated by spaces). Press Enter to exit...')
     nums = input('> ')
-    if nums == '':
+    if nums == '':  # если пустая строка - выход
         break
 
     try:

@@ -15,7 +15,7 @@ def sum_numbers(numbers):
     sum = 0
     for v in numbers:
         if v == special_char:   # если спецсимвол завершения
-            stop = True
+            stop = True         # установка признака завершения
             print()
             break
         try:
@@ -42,4 +42,3 @@ while not stop:
     print(f'Sum: {sum}')
 
 print('Program completed.')
-
