@@ -18,7 +18,7 @@ def my_func(x, y):
 while True:
     try:
         x = input('\nEnter number: ')
-        if x == '':
+        if x == '': # если пустая строка - выходим
             break
         x = float(x)
         y = int(input('Enter integer number: '))

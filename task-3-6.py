@@ -16,7 +16,7 @@ def int_func(str):
 
 while True:
     str = input('\nEnter a string in lower case (Enter - to exit): ')
-    if str == '':
+    if str == '':   # если пустая строка - выход
         break
     print(f'Modified string: {int_func(str)}')
 
